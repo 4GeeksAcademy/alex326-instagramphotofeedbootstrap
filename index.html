@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
+    <script src="https://kit.fontawesome.com/d55b27c8ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
   <body>
     <nav class=" bg-secondary navbar"> 
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+        <a class="navbar-brand" href="#"> 
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa-brands" fa-instagram"></i>instagram
         </a>
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+<button type="button" class="bg-success btn btn-primary"  data-bs-toggle ="modal" data-bs-target="#exampleModal">
+  Create a new post 
+  <i class="fa fa-chevron-circle-down" fa-solid fa-gear"></i>
 </button>
 
 <!-- Modal -->
@@ -38,18 +42,172 @@
       </div>
     </nav>
     <nav>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
-        <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Disabled</button>
+      <div class="justify-content-center d-flex align-items-center nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"> <i class="fa-solid fa-square"></i></button>
       </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">1</div>
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">2</div>
-      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">3</div>
-      <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">4</div>
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <!-- This is where photo rows -->
+        <div class="row">
+          <div class="col-4">
+            <img src="https://media.istockphoto.com/photos/crowds-of-people-in-soho-new-york-city-picture-id1047389656"/>
+
+          </div>
+          <div class="col-4">
+            <img src="https://media.blogto.com/articles/20181012-co-working-toronto.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"/>
+            
+
+            </div>
+            <div class="col-4">
+              <img src="https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https://showsnob.com/wp-content/uploads/getty-images/2018/08/1012239446.jpeg"/>
+
+            </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="http://wallpapercave.com/wp/KX8img0.jpg"/>
+
+        </div>
+        <div class="col-4">
+          <img src="https://seangoca.files.wordpress.com/2018/04/dsc_4917b.jpg"/>
+
+        </div>
+        <div class="col-4">
+          <img src="https://www.nme.com/wp-content/uploads/2023/05/beyonce-renaissance-tour-4@2000x1270.jpg"/>
+        </div>
+      
+      </div> 
+      
+
+        <div class="row">
+      <div class="col-4">
+        <img src="https://www.billboard.com/wp-content/uploads/2023/02/14-rihanna-super-bowl-half-time-2023-billboard-1548.jpg?w=942&h=623&crop=1"/>
+      
+
+      </div>
+      <div class="col-4">
+        <img src="https://myxperiencefitness.com/wp-content/uploads/2021/05/shutterstock_385315264-2000x1333.jpg"/>
+
+      </div>
+      <div class="col-4">
+        <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1132997971.jpg" />
+      </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">   
+        <div class="content-box">
+        <div class="instagram-post-box">
+            <div class="post-header-box">
+                <div class="post-title">
+    
+                </div>
+                <div class="page-numbers">
+                    1/1
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="https://media.istockphoto.com/photos/crowds-of-people-in-soho-new-york-city-picture-id1047389656"/>
+            </div>
+           
+                <p>
+                  <i class="fa-regular fa-heart"></i>
+                    The New York City Grind
+                </p>
+            </div>
+        </div>     
+        <div class="instagram-post-box">
+            <div class="post-header-box">
+                <div class="post-title">
+          
+                  Co-working space
+                </div>
+                <div class="page-numbers">
+                  1/2
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="https://media.blogto.com/articles/20181012-co-working-toronto.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"/>
+            </div>
+            <div class="description-box">
+                <p>
+                  <i class="fa-regular fa-heart"></i>
+Work hard play hard 
+                </p>
+            </div>
+        </div>
+        <div class="instagram-post-box">
+            <div class="post-header-box">
+                <div class="post-title">
+                    My Favorite
+                </div>
+                <div class="page-numbers">
+                    1/4
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https://showsnob.com/wp-content/uploads/getty-images/2018/08/1012239446.jpeg"/>
+            </div>
+            <div class="description-box">
+                <p>
+                  <i class="fa-regular fa-heart"></i>
+All Americian 
+                </p>
+            </div>
+            <div class="image-box">
+              <img src="http://wallpapercave.com/wp/KX8img0.jpg"/>
+          </div>
+          <div class="description-box">
+              <p>
+                <i class="fa-regular fa-heart"></i>
+The Goat MJ
+              </p>
+              <div class="image-box">
+                <img src="https://seangoca.files.wordpress.com/2018/04/dsc_4917b.jpg"/>
+            </div>
+            <div class="description-box">
+                <p>
+                  <i class="fa-regular fa-heart"></i>
+11's all day for me
+                </p>
+                <div class="image-box">
+                  <img src="https://www.nme.com/wp-content/uploads/2023/05/beyonce-renaissance-tour-4@2000x1270.jpg"/>
+              </div>
+              <div class="description-box">
+                  <p>
+                    <i class="fa-regular fa-heart"></i>
+Queen bee the best entertainer of all time
+                  </p>
+                  <div class="image-box">
+                    <img src="https://www.billboard.com/wp-content/uploads/2023/02/14-rihanna-super-bowl-half-time-2023-billboard-1548.jpg?w=942&h=623&crop=1"/>
+                </div>
+                <div class="description-box">
+                    <p>
+                      <i class="fa-regular fa-heart"></i>
+   Rihanna a real one
+                    </p>
+                    <div class="image-box">
+                      <img src="https://myxperiencefitness.com/wp-content/uploads/2021/05/shutterstock_385315264-2000x1333.jpg"/>
+                  </div>
+                  <div class="description-box">
+                      <p>
+                        <i class="fa-regular fa-heart"></i>
+       Stay fit and healthy all day
+                      </p>
+                      <div class="image-box">
+                        <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1132997971.jpg" />
+                    <div class="description-box">
+                        <p>
+                          <i class="fa-regular fa-heart"></i>
+        Movie night is my kind of vibe
+       
+                        </p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
